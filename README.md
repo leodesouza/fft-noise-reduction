@@ -6,43 +6,24 @@ doc: https://docs.opencv.org/4.13.0/
 venv: py -3.11 -m venv .venv
 libs install: pip install opencv-python numpy matplotlib scikit-image scipy jupyter
 
+## Python and libs
+At the time I am writing this README, it is better to use Python 3.11 for better compatibility with the OpenCV version and all project dependencies.
 
-# Recommended VS Code Extensions for OpenCV and Scientific Python
+Then, create and activate an envorinment for python 3.11:
+- py -3.11 -m venv .venv
+- .venv\Scripts\activate
 
-## Core Python
+Next, install the main libs
+pip install opencv-python numpy matplotlib scikit-image scipy jupyter
 
-- Python  
-  https://marketplace.visualstudio.com/items?itemName=ms-python.python
+## Fourier Transform
+https://docs.opencv.org/4.13.0/de/dbc/tutorial_py_fourier_transform.html
+https://www.youtube.com/watch?v=ev0juGwUz78 (Português)
 
-- Pylance  
-  https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+## Datasets
 
-- Python Debugger  
-  https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
+### BCCD: Blood Cell Count and Detection Dataset
+https://www.kaggle.com/datasets/orvile/bccd-blood-cell-count-and-detection-dataset?utm_source=chatgpt.com
 
-- Jupyter  
-  https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
-
----
-
-# Productivity and Code Quality
-
-- Error Lens  
-  https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
-
-- GitLens  
-  https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-
----
-
-# Image and Visualization Support
-
-- Image Preview  
-  https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
-
----
-
-# Documentation and Markdown
-
-- Markdown All in One  
-  https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+## Ref: Detecting and Counting Blood Cells 
+https://www.kaggle.com/code/francesconesler/detecting-and-counting-blood-cells
