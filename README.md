@@ -6,15 +6,16 @@ doc: https://docs.opencv.org/4.13.0/
 venv: py -3.11 -m venv .venv
 libs install: pip install opencv-python numpy matplotlib scikit-image scipy jupyter
 
-## Python and libs
+## Environment
 At the time I am writing this README, it is better to use Python 3.11 for better compatibility with the OpenCV version and all project dependencies.
 
 Then, create and activate an envorinment for python 3.11:
 - py -3.11 -m venv .venv
 - .venv\Scripts\activate
 
+## Packages 
 Next, install the main libs
-pip install opencv-python numpy matplotlib scikit-image scipy jupyter
+- pip install opencv-python numpy matplotlib scikit-image scipy jupyter
 
 ## Fourier Transform
 https://docs.opencv.org/4.13.0/de/dbc/tutorial_py_fourier_transform.html
